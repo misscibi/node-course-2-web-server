@@ -63,6 +63,12 @@ app.get('/about', (request, response) => {
     });
 });
 
+app.get('/projects', (request, response) => {
+    response.render('projects.hbs', {
+        pageTitle: 'My Portfolio',
+    });
+});
+
 // Bad request - send back json object with errorMessage
 app.get('/bad', (request, response) => {
     response.send({
