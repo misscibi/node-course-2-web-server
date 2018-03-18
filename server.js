@@ -2,6 +2,8 @@ const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
 
+// For Heroku set this port and put 'start' script at package.json file.
+const port = process.env.PORT || 3000;
 var app = express();
 
 hbs.registerPartials(__dirname + '/views/partials');
@@ -22,9 +24,9 @@ app.use((request, response, next) => {
 });
 
 // Maintenance middleware - just comment/uncomment as needed
-app.use((request, response, next) => {
-    response.render('maintenance.hbs');
-});
+// app.use((request, response, next) => {
+//     response.render('maintenance.hbs');
+// });
 
 // Adding middleware
 app.use(express.static(__dirname + '/public'));
@@ -68,6 +70,6 @@ app.get('/bad', (request, response) => {
     });
 });
 
-app.listen(3000, () => {
-    console.log('Server is up on port 3000.');
+app.listen(port, () => {
+    console.log(`Server is up on port ${port}.`);
 });

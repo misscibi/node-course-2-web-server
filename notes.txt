@@ -1,1 +1,408 @@
 nodemon server.js -e js,hbs
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git --version
+git version 2.16.2.windows.1
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git init
+Initialized empty Git repository in C:/Users/CB/WebstormProjects/node-web-server-tutorial/.git/
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .idea/
+        node_modules/
+        notes.txt
+        package-lock.json
+        package.json
+        public/
+        server.js
+        server.log
+        views/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git add package.json
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   package.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .idea/
+        node_modules/
+        notes.txt
+        package-lock.json
+        public/
+        server.js
+        server.log
+        views/
+
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git add public/
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git add views/
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git add server.js
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   package.json
+        new file:   public/help.html
+        new file:   server.js
+        new file:   views/about.hbs
+        new file:   views/home.hbs
+        new file:   views/maintenance.hbs
+        new file:   views/partials/footer.hbs
+        new file:   views/partials/header.hbs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .idea/
+        node_modules/
+        notes.txt
+        package-lock.json
+        server.log
+
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git add notes.txt
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git add .gitignore
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   notes.txt
+        new file:   package.json
+        new file:   public/help.html
+        new file:   server.js
+        new file:   views/about.hbs
+        new file:   views/home.hbs
+        new file:   views/maintenance.hbs
+        new file:   views/partials/footer.hbs
+        new file:   views/partials/header.hbs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .idea/
+        package-lock.json
+
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git commit -m 'Initial commit'
+error: pathspec 'commit'' did not match any file(s) known to git.
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git -help
+Unknown option: -help
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git --help
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git commit -m 'Initial commit'
+error: pathspec 'commit'' did not match any file(s) known to git.
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git commit -m 'Initial commit'
+error: pathspec 'commit'' did not match any file(s) known to git.
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git commit -help
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --ahead-behind        compute full ahead/behind values (EXPERIMENTAL)
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git commit -m='Initial commit'
+error: pathspec 'commit'' did not match any file(s) known to git.
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git commit -m "Initial commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'CB@CB-Sketchpad.(none)')
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git config --global user.email "cnalangan@gmail.com"
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git commit -m "Initial commit"
+[master (root-commit) 4068aa0] Initial commit
+ 10 files changed, 140 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 notes.txt
+ create mode 100644 package.json
+ create mode 100644 public/help.html
+ create mode 100644 server.js
+ create mode 100644 views/about.hbs
+ create mode 100644 views/home.hbs
+ create mode 100644 views/maintenance.hbs
+ create mode 100644 views/partials/footer.hbs
+ create mode 100644 views/partials/header.hbs
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>
+
+
+CB@CB-Sketchpad MINGW64 ~
+$ ssh-keygen -t rsa -b 4096 -C 'cnalangan@gmail.com'
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/CB/.ssh/id_rsa):
+Created directory '/c/Users/CB/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/CB/.ssh/id_rsa.
+Your public key has been saved in /c/Users/CB/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:Fghd88ZWJgVUAw0Ui7mpbsuHmQj3mBYWfOnDupq2AGs cnalangan@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|    .. .ooOO*    |
+|     ... * =..   |
+|   .  ..+ *      |
+|    o o  *       |
+|.    =  S        |
+|... + +o         |
+|oE + B.=         |
+|....*o* .        |
+| .++.o+o         |
++----[SHA256]-----+
+
+CB@CB-Sketchpad MINGW64 ~
+$ eval "$(ssh-agent -s)"
+Agent pid 29700
+
+CB@CB-Sketchpad MINGW64 ~
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/CB/.ssh/id_rsa (/c/Users/CB/.ssh/id_rsa)
+
+CB@CB-Sketchpad MINGW64 ~
+$ clip < ~/.ssh/id_rsa.pub
+
+CB@CB-Sketchpad MINGW64 ~
+$ ssh -T git@github.com
+The authenticity of host 'github.com (13.250.177.223)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,13.250.177.223' (RSA) to the list of known hosts.
+Hi misscibi! You've successfully authenticated, but GitHub does not provide shell access.
+
+CB@CB-Sketchpad MINGW64 ~
+$ git remote add origin https://github.com/misscibi/node-course-2-web-server.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+CB@CB-Sketchpad MINGW64 ~
+$
+
+
+
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git remote add origin https://github.com/misscibi/node-course-2-web-server.git
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>git push -u origin master
+Counting objects: 15, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (15/15), 2.29 KiB | 782.00 KiB/s, done.
+Total 15 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/misscibi/node-course-2-web-server.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
+
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>heroku login
+Enter your Heroku credentials:
+Email: cnalangan@gmail.com
+Password: ***********
+Enter your Heroku credentials:
+Email: cnalangan@gmail.com
+Password: **********
+Logged in as cnalangan@gmail.com
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>heroku keys:add
+Found an SSH public key at C:\Users\CB\.ssh\id_rsa.pub
+? Would you like to upload it to Heroku? Yes
+Uploading C:\Users\CB\.ssh\id_rsa.pub SSH key... done
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>heroku keys
+=== cnalangan@gmail.com keys
+ssh-rsa AAAAB3NzaC...+GwOh7Tw== cnalangan@gmail.com
+
+C:\Users\CB\WebstormProjects\node-web-server-tutorial>
+
+
+
+
+CB@CB-Sketchpad MINGW64 ~
+$ ssh -v git@heroku.com
+OpenSSH_7.6p1, OpenSSL 1.0.2n  7 Dec 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: Connecting to heroku.com [50.19.85.132] port 22.
+debug1: Connection established.
+debug1: identity file /c/Users/CB/.ssh/id_rsa type 0
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/CB/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/CB/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/CB/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/CB/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/CB/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/CB/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/CB/.ssh/id_ed25519-cert type -1
+debug1: Local version string SSH-2.0-OpenSSH_7.6
+debug1: Remote protocol version 2.0, remote software version endosome
+debug1: no match: endosome
+debug1: Authenticating to heroku.com:22 as 'git'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ssh-rsa
+debug1: kex: server->client cipher: aes128-ctr MAC: hmac-sha2-256-etm@openssh.com compression: none
+debug1: kex: client->server cipher: aes128-ctr MAC: hmac-sha2-256-etm@openssh.com compression: none
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ssh-rsa SHA256:8tF0wX2WquK45aGKs/Bh1dKmBXH08vxUe0VCJJWOA/o
+The authenticity of host 'heroku.com (50.19.85.132)' can't be established.
+RSA key fingerprint is SHA256:8tF0wX2WquK45aGKs/Bh1dKmBXH08vxUe0VCJJWOA/o.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'heroku.com,50.19.85.132' (RSA) to the list of known hosts.
+debug1: rekey after 4294967296 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 4294967296 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey
+debug1: Next authentication method: publickey
+debug1: Offering public key: RSA SHA256:Fghd88ZWJgVUAw0Ui7mpbsuHmQj3mBYWfOnDupq2AGs /c/Users/CB/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 535
+debug1: Authentication succeeded (publickey).
+Authenticated to heroku.com ([50.19.85.132]:22).
+debug1: channel 0: new [client-session]
+debug1: Entering interactive session.
+debug1: pledge: network
+PTY allocation request failed on channel 0
+shell request failed on channel 0
